@@ -33,14 +33,13 @@ The class that yields the highest sum is chosen as the final prediction.
 
 * Python 3.x
 * NumPy
-* Pandas (for data manipulation, if applicable)
-
+* Pandas 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/spam-detection-naive-bayes.git
-cd spam-detection-naive-bayes
+git clone https://github.com/Srihari0804/naive_bayes_and_log_naive_bayes_spam_detection.git
+cd naive_bayes_and_log_naive_bayes_spam_detection
 
 ```
 
@@ -52,30 +51,14 @@ pip install numpy pandas
 ```
 
 
-
-## 💻 Usage
-
-To run the classifier and evaluate its performance on the test set, execute the main script:
-
-```bash
-python main.py
-
-```
-
 *(Note: Update the command above based on the actual name of your execution file).*
 
 ## 📂 Project Structure
 
-* `naive_bayes.py` - Contains the implementation of the `NaiveBayes` and `LogNaiveBayes` classes.
-* `utils.py` - Helper functions for text processing and vocabulary building.
-* `main.py` - The main execution script to train and test the model.
-* `data/` - Directory containing the email dataset.
+* `Naive_bayes(1).ipynb` - Contains the implementation of the `NaiveBayes` and `LogNaiveBayes`
+* `emails.csv` - emails data
 
 ## 🎓 Acknowledgments
 
 * This project was completed as part of the **Mathematics for Machine Learning** course by DeepLearning.AI.
 * Special thanks to the course instructors for breaking down the mathematical foundations of machine learning.
-
----
-
-Would you like me to help you draft the specific code for the `naive_bayes.py` file to include in this repository, or do you need to tweak the "Project Structure" section to better match your actual files?
